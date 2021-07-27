@@ -26,6 +26,8 @@ exports[`<GridText /> Test A - should render 1`] = `
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
   gap: 4.0rem;
+  overflow: hidden;
+  width: 100%;
 }
 
 .c8 .c3 {
@@ -49,6 +51,7 @@ exports[`<GridText /> Test A - should render 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
@@ -71,9 +74,16 @@ exports[`<GridText /> Test A - should render 1`] = `
   }
 }
 
+@media (max-width:768px) {
+  .c7 {
+    grid-template-columns: 1fr;
+  }
+}
+
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
@@ -169,6 +179,8 @@ exports[`<GridText /> Test A - should render with background 1`] = `
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
   gap: 4.0rem;
+  overflow: hidden;
+  width: 100%;
 }
 
 .c8 .c3 {
@@ -192,6 +204,7 @@ exports[`<GridText /> Test A - should render with background 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
@@ -214,9 +227,16 @@ exports[`<GridText /> Test A - should render with background 1`] = `
   }
 }
 
+@media (max-width:768px) {
+  .c7 {
+    grid-template-columns: 1fr;
+  }
+}
+
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"

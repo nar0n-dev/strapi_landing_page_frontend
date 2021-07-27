@@ -13,6 +13,7 @@ describe("<GoTop />", () => {
     );
     expect(container).toMatchInlineSnapshot(`
       .c0 {
+        position: fixed;
         background: #0A1128;
         color: #ffffff;
         display: -webkit-box;

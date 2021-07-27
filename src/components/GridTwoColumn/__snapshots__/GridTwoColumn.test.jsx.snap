@@ -29,6 +29,7 @@ exports[`<GridTwoColumn /> Test A - should render 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
@@ -71,6 +72,7 @@ exports[`<GridTwoColumn /> Test A - should render 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
