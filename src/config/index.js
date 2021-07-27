@@ -1,5 +1,5 @@
 export default {
-  url: 'http://localhost:8082/pages/?slug=', 
+  url: 'https://strapi-landing-page-backend.herokuapp.com/pages/?slug=', 
   siteName: 'Natan Cardoso',
   defaultSlug: 'landing-page',
 }
