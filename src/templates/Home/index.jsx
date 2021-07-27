@@ -72,6 +72,7 @@ export default function Home() {
       logoData={{ text, link, srcImg }}
     >
       {sections.map((section, index) => {
+       
         const { component } = section;
         const key = `${slug}-${index}`;
 
@@ -90,6 +91,8 @@ export default function Home() {
         if (component === 'section.section-grid-image') {
           return <GridImage key={key} {...section} />;
         }
+
+        return <h1>Erro</h1>
       })}
     </Base>
   );

@@ -60,6 +60,7 @@ export const mapSectionContent = (section = {}) => {
 
 export const mapTextGrid = (section = {}) => {
   const {
+    // eslint-disable-next-line no-unused-vars
     __component: component = '',
     title = '',
     description = '',
@@ -85,6 +86,7 @@ export const mapTextGrid = (section = {}) => {
 
 export const mapImageGrid = (section = {}) => {
   const {
+    // eslint-disable-next-line no-unused-vars
     __component: component = '',
     title = '',
     description = '',
